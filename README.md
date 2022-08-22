@@ -1,3 +1,3 @@
-# Hello, world!
+# Hello, world
 
-This is a readme file :D
+My personal Neovim config.
