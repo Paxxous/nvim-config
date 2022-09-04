@@ -36,6 +36,7 @@ end
 map('n', '<leader>f', ':Files<CR>') -- FZF
 map('n', '<leader>T', ':NvimTreeToggle<CR>') -- Toggle Nvim tree
 map('n', '<leader>t', ':NvimTreeFocus<CR>') -- Focus Nvim tree
+map('n', '<leader>r', ':Neomake!<CR>')
 map('n',  'f', '<Plug>Sneak_,') -- Replace the comma for vim sneak (bc , is already mapped)
 
 -- if vim.bo.filetype == 'cpp' then
@@ -49,5 +50,5 @@ map('n',  'f', '<Plug>Sneak_,') -- Replace the comma for vim sneak (bc , is alre
 
 -- Set the theme
 vim.g.material_style = "deep ocean"
-vim.cmd([[ colo material ]])
+vim.cmd([[ colo gruvbox ]])
 vim.g.t_ut=''

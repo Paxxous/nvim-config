@@ -33,8 +33,8 @@ return require('packer').startup(function()
   -- My personal favorite, themes.
   -- ]]
 
-  -- use 'morhetz/gruvbox'
-  use 'gruvbox-community/gruvbox'
+  use 'morhetz/gruvbox'
+  -- use 'gruvbox-community/gruvbox'
   use 'savq/melange'
   use 'tomasr/molokai'
   use 'drewtempelmeyer/palenight.vim'
